@@ -9,6 +9,6 @@ import bg.o.sim.afc.setFormContentView
 
 class SplashFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        return this.setFormContentView()
+        return this.setFormContentView("asdass")
     }
 }

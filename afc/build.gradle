@@ -41,7 +41,8 @@ dependencies {
     implementation 'androidx.ui:ui-tooling:0.1.0-dev02'
 
     // de/serialization deps
-    implementation 'com.fasterxml.jackson.core:jackson-databind:2.9.9'
+    api 'com.fasterxml.jackson.core:jackson-databind:2.9.9'
+    api "com.fasterxml.jackson.module:jackson-module-kotlin:2.9.9"
 
     // allows overriding strings.xml with the values fetched from backend or wherever ya might want
     api 'com.ice.restring:restring:1.0.0'
